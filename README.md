@@ -11,7 +11,7 @@ This project explores key analytical questions in modern T20 cricket:
 2. **Team and player performance:** Which franchises and players have scored the most runs across 2008-2024?
 
 ---
-https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
+
 ## Data Source
 
 - **Dataset**: Kaggle IPL Complete Dataset (2008–2024) ball-by-ball delivery data.
