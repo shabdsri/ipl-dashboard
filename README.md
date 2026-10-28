@@ -7,20 +7,16 @@ An end-to-end data analytics and business intelligence project exploring 17 seas
 ## Business Questions
 
 This project explores key analytical questions in modern T20 cricket:
-1. **Strike Rate vs. Economy**: How do premier batters balance scoring acceleration with risk, and which bowlers consistently suppress run rates across match situations?
-2. **Phase Dynamics (Powerplay vs. Middle vs. Death)**: How do team scoring trajectories, boundary rates, and bowling economies shift across the three distinct innings phases?
-3. **Toss Impact & Match Outcomes**: Does winning the coin toss or electing to bat/field first confer a measurable win-probability advantage across venues and tournament editions?
+1. **Strike Rate vs. Economy:** How do top batters balance scoring speed with volume, and which bowlers keep run rates low while taking wickets?
+2. **Team and player performance:** Which franchises and players have scored the most runs across 2008-2024?
 
 ---
-
+https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
 ## Data Source
 
 - **Dataset**: Kaggle IPL Complete Dataset (2008–2024) ball-by-ball delivery data.
 - **Raw Files**: Raw data (`deliveries.csv` and optional `matches.csv`) is not tracked in version control due to file size constraints.
-- **Download Instructions**:
-  > *[Placeholder: Add Kaggle dataset download link and extraction instructions here]*
-  >
-  > Place `deliveries.csv` (and optionally `matches.csv`) into the `data/raw/` directory before running the data pipeline.
+- Download: [IPL Complete Dataset (2008-2024)](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
 
 ---
 
@@ -64,20 +60,20 @@ This project explores key analytical questions in modern T20 cricket:
 ---
 
 ## Data Model
-
-*[Placeholder: Insert data model diagram / star schema screenshot showing relationships between Fact_Deliveries, Dim_Team, and Dim_Matches]*
-
----
+![Data model](screenshots/data_model.png)
 
 ## Dashboard Screenshots
 
-*[Placeholder: Insert high-resolution screenshots of Power BI report pages (Overview, Batting Analysis, Bowling Analysis, Phase Breakdown, Head-to-Head)]*
+### Overview
+![Overview](screenshots/overview.png)
 
----
+### Strike Rate vs Economy
+![Strike rate vs economy](screenshots/strike%20rate%20vs.%20economy.png)
 
 ## Key Insights
-
-*[Placeholder: Key analytical findings and strategic takeaways to be added after dashboard analysis]*
+1. V Kohli has scored about 8,004 IPL runs at a strike rate of about 132.
+2. JJ Bumrah has taken about 165 wickets at an economy of about 7.3.
+3. (Add one finding you can see in your own scatter plots)
 
 ---
 
