@@ -24,7 +24,7 @@ This project explores key analytical questions in modern T20 cricket:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/ipl-dashboard.git
+   git clone https://github.com/<shabdsri>/ipl-dashboard.git
    cd ipl-dashboard
    ```
 
